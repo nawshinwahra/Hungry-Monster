@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Cooking Master</title>
+</head>
+<body>
+    <div class="container">
+    <form class="col-md-6 m-auto py-5" id="submit">
+        <div class="input-group mb-3">
+            <input type="text" id="meal-search" class="form-control" placeholder="Search for Meals">
+            <div class="input-group-append">
+                <button type="submit" class="btn btn-danger" id="search_button">Search</button>
+            </div>
+        </div>
+    </form>
+</div>
+<main class="container my-5">
+    
+    <div class="result-heading "></div>
+    <div id="meals" class="meals"></div>
+    <div id="single-meal"></div>
+
+</main>
+    <script src="app.js"></script>
+</body>
+</html>

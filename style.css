@@ -1,0 +1,19 @@
+.meals{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin: 20px;
+
+}
+.meal{
+    cursor: pointer;
+    position: relative;
+    border: 1px solid white;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.meal img{
+    width: 200px;
+    
+}
